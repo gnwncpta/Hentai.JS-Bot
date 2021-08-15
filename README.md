@@ -9,7 +9,6 @@ Discord Server:
     > DJA: https://discord.gg/E47t3Gujcc
 
 
-Source: Recon/Eula/Akaneko/Chalk/Node-fetch/Glob/Util/Ms/Fs
 
 TUTORIAL SUPAYA BOT ONLINE:
 
