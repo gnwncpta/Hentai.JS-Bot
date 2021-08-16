@@ -9,9 +9,12 @@ const globPromise = promisify(glob);
 /**
  * @param {Client} client
  */
+
 module.exports = async (client) => {
+
     //NScommands
     const commandFiles = await globPromise(`${process.cwd()}/commands/**/*.js`);
+
     commandFiles.map((value) => {
         const file = require(value);
         const splitted = value.split("/");
